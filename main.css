@@ -1,0 +1,61 @@
+body {
+  font-size: 20px;
+  font-family: 'EB Garamond', serif;
+  background-color: #fafafa;
+  color: rgb(20, 20, 20);
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  margin: 5px 0;
+}
+
+.content {
+  padding: 20px 100px;
+}
+
+.puzzle {
+  border: solid 2px;
+  background-color: #fde300;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+hr {
+  border-color: #202020;
+}
+
+.row {
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.row input {
+  height: 30px;
+  width: 22px;
+  border: solid #202020 0.5px;
+  text-align: center;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  color: rgb(200, 200, 200);
+  background-color: #ffffff;
+}
+
+.row input.e {
+  color: #202020;
+  background-color: rgb(220, 220, 220);
+}
+
+.final {
+  margin-top: 20px;
+}
